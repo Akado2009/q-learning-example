@@ -311,7 +311,7 @@ class DeepQAgent(Agent):
         """
         progress = tqdm(total=frames_to_play, unit="frame")
         progress.set_postfix(score="?", loss="?", rate="?")
-        self._load_model()
+        # self._load_model()
 
         while frames_to_play > 0:
             done = False
