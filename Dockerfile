@@ -20,4 +20,4 @@ RUN pip3 install -r requirements.txt
 
 RUN pip3 install --upgrade tensorflow
 RUN pip3 install --upgrade keras
-ENTRYPOINT [ "/bin/bash"]
+ENTRYPOINT [ "python3.6", "main.py"]
